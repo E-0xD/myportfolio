@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Page Title -->
+    <title>LITTLE</title>
+
+    <!-- Meta Tags -->
+    <meta
+      name="description"
+      content=" LITTLE's portfolio, a seasoned full stack web developer with expertise in HTML, CSS, PHP, Laravel, and JavaScript. Discover innovative projects and solutions that showcase his skills in web design, development, and data analysis"
+    />
+    <meta
+      name="keywords"
+      content="resume, portfolio, personal page, cv, html5, css3, LITTLE, LITTLE INC, full stack web developer, HTML, CSS, PHP, Laravel, JavaScript, web development, portfolio, data analysis, web design, software development, Node.js, jQuery, React, Bootstrap, Tailwind, SQL, NoSQL, programming, tech projects, freelance developer, modern web technologies
+      "
+    />
+    <meta name="author" content="LITTLE" />
+
+    <!-- Viewport Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Favicon & Icons Start -->
+    <link rel="icon" href="img/favicon/code.svg" type="image/svg+xml" />
+    <!-- Favicon & Icons End -->
+
+    <!-- Styles Start -->
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- Styles End -->
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header id="header" class="header d-flex justify-content-between">
+      <!-- Navigation Menu Start -->
+      <div class="header__navigation">
+        <nav id="menu" class="menu">
+          <ul class="menu__list d-flex justify-content-start">
+            <li class="menu__item">
+              <a class="menu__link btn" href="#home">
+                <span class="menu__caption">Home</span>
+                <i class="fa-solid fa-house"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#services">
+                <span class="menu__caption">Services</span>
+                <i class="fa-solid fa-code"></i>
+                <!-- <i class="fa-solid fa-diamond"></i> -->
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#about">
+                <span class="menu__caption">About Me</span>
+                <i class="fa-regular fa-user"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#resume">
+                <span class="menu__caption">Resume</span>
+                <i class="fa-regular fa-newspaper"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Navigation Menu End -->
+
+      <!-- Header Controls Start -->
+      <div class="header__controls d-flex justify-content-end">
+        <button
+          id="color-switcher"
+          class="color-switcher header__switcher btn"
+          type="button"
+          role="switch"
+          aria-label="light/dark mode"
+          aria-checked="true"
+        ></button>
+        <a
+          id="notify-trigger"
+          class="header__trigger btn"
+          href="mailto:e0xd.dev@gmail.com?subject=Message%20from%20your%20site"
+        >
+          <span class="trigger__caption">Let's Talk</span>
+          <i class="fa-regular fa-message"></i>
+        </a>
+      </div>
+      <!-- Header Controls End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- SVG Background Start -->
+    <div id="svgBackground" class="svg-background">
+      <!-- top svg item -->
+      <div class="background__svg01" data-speed="0.8">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="1000px"
+          height="1000px"
+          viewBox="0 0 1000 1000"
+          style="enable-background: new 0 0 1000 1000"
+          xml:space="preserve"
+        >
+          <style type="text/css">
+            .bg01 {
+              fill: url(#color-gradient);
+            }
+          </style>
+          <radialGradient
+            id="color-gradient"
+            cx="418.5665"
+            cy="225.9685"
+            r="499.9326"
+            fx="866.8251"
+            fy="4.6162"
+            gradientTransform="matrix(-0.6935 0.7207 -0.7207 -0.6935 953.1126 355.0528)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" style="stop-color: #6c7bd0" />
+            <stop offset="1" style="stop-color: #6c7bd0; stop-opacity: 0" />
+          </radialGradient>
+          <circle class="bg01" cx="500" cy="500" r="500" />
+        </svg>
+      </div>
+      <!-- bottom svg item -->
+      <div class="background__svg02" data-speed="0.4">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="429.6px"
+          height="429.6px"
+          viewBox="0 0 429.6 429.6"
+          style="enable-background: new 0 0 429.6 429.6"
+          xml:space="preserve"
+        >
+          <style type="text/css">
+            .bg02 {
+              fill: url(#color-gradient-2);
+            }
+          </style>
+          <g id="Layer_1-2">
+            <radialGradient
+              id="color-gradient-2"
+              cx="2213.9312"
+              cy="-11537.4219"
+              r="214.85"
+              fx="2393.6191"
+              fy="-11419.6494"
+              gradientTransform="matrix(1.902285e-02 0.9998 0.9998 -1.954636e-02 11706.5303 -2223.4016)"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop offset="0" style="stop-color: #6c7bd0" />
+              <stop offset="1" style="stop-color: #6c7bd0; stop-opacity: 0" />
+            </radialGradient>
+            <path
+              class="bg02"
+              d="M63,63C146.9-21,282.9-21,366.8,62.9s83.8,219.9-0.1,303.8s-219.9,83.9-303.8,0.1S-20.9,146.9,63,63z"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!-- SVG Background End -->
+
+    <!-- Avatar Side Block Start -->
+    <div id="avatar" class="avatar">
+      <div
+        class="avatar__container d-flex flex-column justify-content-lg-between"
+      >
+        <!-- image and logo -->
+        <div class="avatar__block">
+          <div class="avatar__logo d-flex align-items-center">
+            <div class="logo__image">
+              <!-- Your Logo Here!!! -->
+              <object
+                data="./svg/rose-flower.svg"
+                type="image/svg+xml"
+                class="w-100 h-100"
+              ></object>
+            </div>
+            <div class="logo__caption">
+              <p>LITTLE</p>
+            </div>
+          </div>
+          <div class="avatar__image">
+            <img
+              src="img/avatars/1.png"
+              alt="LITTLE"
+            />
+          </div>
+        </div>
+        <!-- data caption #1 -->
+        <div class="avatar__block">
+          <h6>
+            <small class="top">Specialization:</small>
+            Web development,<br />Financial market analysis
+          </h6>
+        </div>
+        <!-- data caption #2 -->
+        <div class="avatar__block">
+          <h6>
+            <small class="top">Based in:</small>
+            UTC +1
+          </h6>
+        </div>
+        <!-- socials and CTA button -->
+        <div class="avatar__block">
+          <div class="avatar__socials">
+            <ul class="socials-square d-flex justify-content-between">
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://x.com/E_0xD"
+                  target="_blank"
+                >
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+              </li>
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://wa.me/message/WGRNRCPSYTQWA1"
+                  target="_blank"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </li>
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://github.com/E-0xD"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://t.me/E_0XD1"
+                  target="_blank"
+                  ><i class="fab fa-telegram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Avatar Side Block End -->
+
+    <!-- Page Content Start -->
+    <div id="content" class="content">
+      <div class="content__wrapper">
+        <!-- Intro Section Start -->
+        <section id="home" class="main intro">
+          <!-- Headline Start -->
+          <div
+            id="headline"
+            class="headline d-flex align-items-start flex-column"
+          >
+            <p class="headline__subtitle animate-headline mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor"
+              >
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"
+                />
+              </svg>
+              <span>Let's meet!</span>
+            </p>
+            <h1 class="headline__title animate-headline">
+              I'm LITTLE,<br />Web developer and Financial market analyst
+            </h1>
+            <div class="headline__btnholder d-flex flex-column flex-sm-row">
+              <a
+                class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
+                href="#services"
+              >
+                <span class="btn-caption">My services</span>
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <!-- <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline" href="#">
+                <span class="btn-caption">Download CV</span>
+                <i class="ph-bold ph-download-simple"></i>
+              </a> -->
+            </div>
+          </div>
+          <!-- Headline End -->
+        </section>
+        <!-- Intro Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section id="services" class="inner inner-first services">
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor"
+              >
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"
+                />
+              </svg>
+              <span>Services</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Check out my services</h2>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Works Gallery Start -->
+          <!-- Content Block - Services Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid p-0">
+              <div class="row g-0 align-items-stretch cards">
+                <!-- services cards grid single item -->
+                <div
+                  class="col-12 col-md-6 cards__item grid-item animate-card-2"
+                >
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">
+                        Web<br />development
+                      </h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline"
+                          >Responsive design</span
+                        >
+                        <span class="rounded-tag tag-outline"
+                          >Design to Code</span
+                        >
+                        <span class="rounded-tag tag-outline"
+                          >Interactive UI</span
+                        >
+                      </div>
+                      <p class="small cards__text animate-in-up fs-3">
+                        I create dynamic, responsive, and user-centric websites
+                        tailored to your business needs. Using the latest
+                        technologies, I ensure your site is visually appealing
+                        and highly functional, enhancing user engagement and
+                        achieving your digital goals.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img
+                        src="img/services/1200x900_s01.webp"
+                        alt="Service/Feature Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- services grid cards single item -->
+                <div
+                  class="col-12 col-md-6 cards__item grid-item animate-card-2"
+                >
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">
+                        SEO/Digital marketing solutions
+                      </h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Analytics</span>
+                      </div>
+                      <p class="small cards__text animate-in-up fs-3">
+                        I enhance your online visibility and drive organic traffic through expert keyword optimization, on-page and off-page strategies, and technical SEO.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex">
+                      <img
+                        src="img/services/2.png"
+                        alt="Service/Feature Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Services End -->
+          <!-- Content Block - Works Gallery End -->
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- About Section Start -->
+        <section id="about" class="inner about">
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor"
+              >
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"
+                />
+              </svg>
+              <span>About Me</span>
+            </p>
+            <h2 class="h2__title animate-in-up">
+              Inspired by dreams, Driven by goals
+            </h2>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Achievements Start -->
+          <div class="content__block grid-block">
+            <div
+              class="achievements d-flex flex-column flex-md-row align-items-md-stretch"
+            >
+              <!-- achievements single item -->
+              <div
+                class="achievements__item d-flex flex-column grid-item animate-card-3"
+              >
+                <div class="achievements__card">
+                  <p class="achievements__number">12+</p>
+                  <p class="achievements__descr">Happy clients</p>
+                </div>
+              </div>
+              <!-- achievements single item -->
+              <div
+                class="achievements__item d-flex flex-column grid-item animate-card-3"
+              >
+                <div class="achievements__card">
+                  <p class="achievements__number">2+</p>
+                  <p class="achievements__descr">Years of experience</p>
+                </div>
+              </div>
+              <!-- achievements single item -->
+              <div
+                class="achievements__item d-flex flex-column grid-item animate-card-3"
+              >
+                <div class="achievements__card">
+                  <p class="achievements__number">30+</p>
+                  <p class="achievements__descr">Projects done</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Achievements End -->
+
+          <!-- Content Block - About Me Data Start -->
+          <div class="content__block grid-block block-large">
+            <div class="container-fluid p-0">
+              <div class="row g-0 justify-content-between">
+                <!-- About Me Description Start -->
+                <div class="col-12 col-xl-8 grid-item about-descr">
+                  <p class="about-descr__text animate-in-up">
+                    I'm LITTLE, a versatile full stack web developer with a
+                    strong foundation in both front-end and back-end
+                    technologies. Over two years of freelance experience have
+                    sharpened my skills in:
+                  </p>
+                  <p class="about-descr__text animate-in-up">
+                   <i class="fa-solid fa-circle-dot"></i> Back-end: Node.js, PHP, Laravel
+                    <br />
+                   <i class="fa-solid fa-circle-dot"></i> Front-end: JavaScript, jQuery,
+                    React <br />
+                   <i class="fa-solid fa-circle-dot"></i> Markup and Styling: HTML, CSS
+                    <br />
+                   <i class="fa-solid fa-circle-dot"></i> Templating Engines: EJS, Blade
+                    <br />
+                   <i class="fa-solid fa-circle-dot"></i> CSS Frameworks: Bootstrap,
+                    Tailwind <br />
+                   <i class="fa-solid fa-circle-dot"></i> Databases: SQL, NoSQL <br />
+                  </p>
+                  <p class="about-descr__text animate-in-up">
+                    My expertise spans from crafting intuitive user interfaces
+                    to architecting complex data structures, ensuring a
+                    comprehensive approach to web development.
+                  </p>
+
+                  <p class="about-descr__text animate-in-up">
+                    Additionally, I bring five years of experience as a currency
+                    and cryptocurrency trader, coupled with a background in
+                    decentralized finance analysis. This unique skill set
+                    enables me to develop robust, data-driven applications with
+                    a deep understanding of financial technologies and market
+                    dynamics.
+                  </p>
+
+                  <p class="about-descr__text animate-in-up">
+                    My proficiency as a data analyst further enhances my ability
+                    to create efficient, insightful solutions. This combination
+                    of technical skills and domain knowledge makes me a
+                    versatile developer capable of tackling diverse projects
+                    across various sectors.
+                  </p>
+                  <!-- <div class="btn-group about-descr__btnholder animate-in-up">
+                    <a
+                      class="btn mobile-vertical btn-default btn-hover btn-hover-accent"
+                      href="#"
+                    >
+                      <span class="btn-caption">Download CV</span>
+                      <i class="ph-bold ph-download-simple"></i>
+                    </a>
+                  </div> -->
+                </div>
+                <!-- About Me Description End -->
+
+                <!-- About Me Information Start -->
+                <div class="col-12 col-xl-4 grid-item about-info">
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Name</small>
+                      LITTLE
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Email</small>
+                      <a
+                        class="text-link-bold"
+                        href="mailto:e0xd.dev@gmail.com?subject=Message%20from%20your%20site"
+                        >e0xd.dev@gmail.com</a
+                      >
+                    </h6>
+                  </div>
+                </div>
+                <!-- About Me Information End -->
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - About Me Data End -->
+        </section>
+        <!-- About Section End -->
+
+        <!-- Resume Section Start -->
+        <section id="resume" class="inner-last resume">
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block block-large">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor"
+              >
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"
+                />
+              </svg>
+              <span>Resume</span>
+            </p>
+            <h2 class="h2__title animate-in-up">
+              Education and practical experience
+            </h2>
+            <p class="h2__text animate-in-up">
+              My educational background and practical experience have equipped
+              me with a robust foundation and extensive hands-on skills in web
+              development. Through rigorous academic training and real-world
+              applications, I have cultivated a comprehensive understanding of
+              web development principles and practices. This synergy of
+              knowledge and experience positions me to contribute effectively
+              and innovatively to any project or team.
+            </p>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Education Start -->
+          <div class="content__block block-large">
+            <!-- H3 Block Start -->
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">My education</h3>
+            </div>
+            <!-- H3 Block End -->
+
+            <!-- Education Lines Start -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- education single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2021</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Frontend development
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    Course by
+                    <a
+                      href="https://www.megamindsetsolutions.com/"
+                      class="text-link-bold"
+                      target="_blank"
+                      >MegaMindset ICT solution</a
+                    >
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    Intensive training on HTML,CSS and Bootstrap
+                  </p>
+                </div>
+              </div>
+              <!-- education single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up"
+                    >2021 - 2022</span
+                  >
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Backend development
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    Course by
+                    <a
+                      href="https://www.megamindsetsolutions.com/"
+                      class="text-link-bold"
+                      target="_blank"
+                      >MegaMindset ICT solution</a
+                    >
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    Deep dive into application architecture,sever-side logic,
+                    security and performance and database logic using PHP
+                  </p>
+                </div>
+              </div>
+              <!-- education single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up"
+                    >2022 - 2023</span
+                  >
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Js and Node.js (the complete guide)
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    Course by
+                    <a href="#" class="text-link-bold" target="_blank">Udemy</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    This cource is about the use of JavaScript to make dynamic
+                    and interactive webpages as well as using node.js to script
+                    sever side logic.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up"
+                    >2023 - 2024</span
+                  >
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    PHP frameworks(Laravel)
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    Course by
+                    <a href="#" class="text-link-bold" target="_blank">Udemy</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    This cource is about the use of laravel.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Education Lines End -->
+          </div>
+          <!-- Content Block - Education End -->
+
+          <!-- Content Block - Experience Start -->
+          <div class="content__block block-large">
+            <!-- H3 Block Start -->
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">Work experience</h3>
+            </div>
+            <!-- H3 Block End -->
+
+            <!-- Experience Lines Start -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2024</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Sports betting platform
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    for
+                    <a href="#" class="text-link-bold" target="_blank">Gypsy</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    A personal startup in development
+                  </p>
+                </div>
+              </div>
+
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2024</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Nft marketplace
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    for
+                    <a
+                      href="https://artocean.org/"
+                      class="text-link-bold"
+                      target="_blank"
+                      >Artlife</a
+                    >
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    I developed a cutting-edge NFT (Non-Fungible Token)
+                    marketplace platform that allows users to create, buy, sell,
+                    and trade digital assets securely and efficiently. The
+                    marketplace caters to artists, collectors, and enthusiasts
+                    in the growing NFT ecosystem.
+                  </p>
+                </div>
+              </div>
+
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2024</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Real estate</h5>
+                  <p class="resume-lines__source animate-in-up">
+                    for
+                    <a href="#" class="text-link-bold" target="_blank"
+                      >Find house</a
+                    >
+                    agency
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    I am actively involved in creating user interfaces for
+                    mobile apps and websites.
+                  </p>
+                </div>
+              </div>
+
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2024</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Charity organization
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    for
+                    <a
+                      href="https://munafoundation.com.ng/"
+                      class="text-link-bold"
+                      target="_blank"
+                      >Muna Foundation</a
+                    >
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    I developed a comprehensive website for muna foundation
+                    dedicated to providing support and resources to underserved
+                    communities. The website aims to increase awareness,
+                    facilitate donations, and engage volunteers.
+                  </p>
+                </div>
+              </div>
+
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2023</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Portfolio</h5>
+                  <p class="resume-lines__source animate-in-up">
+                    for
+                    <a
+                      href="https://kelvin-king.netlify.app"
+                      class="text-link-bold"
+                      target="_blank"
+                      >Kelvin King</a
+                    >
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    I collaborated with Kelvin King, a prominent financial
+                    market analyst, to create a professional and visually
+                    appealing portfolio website. The goal was to effectivelly
+                    showcase his skills, works, and personal brand.
+                  </p>
+                </div>
+              </div>
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2023</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Online Banking software
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    for
+                    <a href="#" class="text-link-bold" target="_blank"
+                      >Orange bank</a
+                    >
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    I developed a comprehensive online banking software solution
+                    designed to provide secure, efficient, and user-friendly
+                    banking services. The software facilitates a wide range of
+                    banking operations, ensuring a seamless experience for both
+                    customers and banking staff.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Experience Lines End -->
+          </div>
+          <!-- Content Block - Experience End -->
+
+          <!-- Content Block - H3 Block Start -->
+          <div class="content__block">
+            <div class="section-h3 section-h3-grid">
+              <h3 class="h3__title animate-in-up">My skills</h3>
+            </div>
+          </div>
+          <!-- Content Block - H3 Block End -->
+
+          <!-- Content Block - Tools List Start -->
+          <div class="content__block grid-block block-large">
+            <!-- Tools List Start -->
+            <div class="tools-cards d-flex justify-content-start flex-wrap">
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/html.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">HTML5</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/css.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">CSS3</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/bootstrap.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">Bootstrap</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/tailwind.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">Tailwind</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/php.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">PHP</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/laravel.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">Laravel</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/javascript.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">Javascript</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/nodejs.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">Node.js</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/react.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">React</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/mysql.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">Mysql</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="./svg/github.svg"
+                    alt="Tools Icon"
+                  />
+                  <h6 class="tools-cards__caption animate-in-up">Github</h6>
+                </div>
+              </div>
+
+            </div>
+            <!-- Tools List End -->
+          </div>
+          <!-- Content Block - Tools List End -->
+
+
+          <div class="container mb-4 p-4"></div>
+
+        </section>
+        <!-- Resume Section End -->
+      </div>
+    </div>
+    <!-- Page Content End -->
+
+
+
+    <!-- Load Scripts Start -->
+    <script src="js/libs.min.js"></script>
+    <script>
+      const content = document.querySelector("body");
+      const imgLoad = imagesLoaded(content);
+      imgLoad.on("done", (instance) => {
+        setTimeout(() => {
+          document.getElementById("svgBackground").classList.add("loaded");
+        }, "1000");
+      });
+    </script>
+    <script src="js/app.js"></script>
+    <script src="js/gallery-init.js"></script>
+    <!-- Load Scripts End -->
+  </body>
+</html>
